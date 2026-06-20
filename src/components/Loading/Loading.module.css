@@ -1,0 +1,62 @@
+.root {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-text-secondary);
+}
+
+.root--spinner {
+  min-height: 1.5rem;
+}
+
+.root--inline {
+  min-height: var(--size-control-md);
+  padding: 0.25rem 0;
+}
+
+.root--page {
+  min-height: 16rem;
+  justify-content: center;
+  flex-direction: column;
+  padding: var(--space-8);
+  border: 1px dashed var(--color-neutral-200);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+}
+
+.spinner {
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  animation: spin 700ms linear infinite;
+}
+
+.spinner--sm {
+  width: 0.875rem;
+  height: 0.875rem;
+}
+
+.spinner--md {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+.spinner--lg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.label {
+  font-size: var(--font-size-sm);
+}
+
+.pageLabel {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-medium);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,40 @@
+.root {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.control {
+  display: grid;
+  position: relative;
+}
+
+.field {
+  width: 100%;
+  min-height: var(--size-control-md);
+  padding: 0 var(--space-3);
+  border: 1px solid var(--color-neutral-300);
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(45deg, transparent 50%, var(--color-text-tertiary) 50%) calc(100% - 1.1rem)
+      calc(1em + 1px) / 0.5rem 0.5rem no-repeat,
+    linear-gradient(135deg, var(--color-text-tertiary) 50%, transparent 50%) calc(100% - 0.8rem)
+      calc(1em + 1px) / 0.5rem 0.5rem no-repeat,
+    var(--color-surface);
+  appearance: none;
+  transition:
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+
+.field:focus {
+  outline: none;
+}
+
+.field:focus-visible {
+  border-color: var(--color-brand-500);
+  box-shadow: 0 0 0 3px rgba(49, 94, 217, 0.14);
+}
+
+.field--error {
+  border-color: var(--color-danger-500);
+}

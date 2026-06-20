@@ -1,0 +1,94 @@
+.root {
+  overflow-x: auto;
+  border: 1px solid var(--color-neutral-200);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+}
+
+.table {
+  width: 100%;
+  min-width: 42rem;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.caption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.headCell,
+.cell {
+  padding: var(--space-4);
+  border-bottom: 1px solid var(--color-neutral-100);
+  vertical-align: top;
+}
+
+.headCell {
+  background: var(--color-surface-muted);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  text-align: left;
+}
+
+.headCell--center,
+.cell--center {
+  text-align: center;
+}
+
+.headCell--right,
+.cell--right {
+  text-align: right;
+}
+
+.sortButton {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font-weight: inherit;
+  color: inherit;
+}
+
+.sortIcon {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-tertiary);
+}
+
+.sortIcon--active {
+  color: var(--color-brand-600);
+}
+
+.rowClickable {
+  cursor: pointer;
+}
+
+.rowClickable:hover td,
+.rowClickable:focus-visible td {
+  background: rgba(49, 94, 217, 0.04);
+}
+
+.rowClickable:focus-visible {
+  outline: none;
+}
+
+.rowClickable:focus-visible td {
+  box-shadow: inset 0 0 0 2px var(--color-brand-500);
+}
+
+.loadingCell,
+.emptyCell {
+  padding: var(--space-8);
+  text-align: center;
+}

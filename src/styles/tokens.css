@@ -1,0 +1,107 @@
+:root {
+  color-scheme: light;
+
+  --color-brand-50: #eef4ff;
+  --color-brand-100: #d9e4ff;
+  --color-brand-200: #b7c9ff;
+  --color-brand-300: #8eaaff;
+  --color-brand-400: #5f85f7;
+  --color-brand-500: #315ed9;
+  --color-brand-600: #274bb2;
+  --color-brand-700: #1f3b8a;
+
+  --color-neutral-0: #ffffff;
+  --color-neutral-50: #f8fafc;
+  --color-neutral-100: #eef2f7;
+  --color-neutral-200: #dde4ee;
+  --color-neutral-300: #c3cfdd;
+  --color-neutral-400: #92a1b5;
+  --color-neutral-500: #66758d;
+  --color-neutral-600: #4a566a;
+  --color-neutral-700: #344152;
+  --color-neutral-800: #223041;
+  --color-neutral-900: #12202e;
+
+  --color-surface: #ffffff;
+  --color-surface-muted: #f7f9fc;
+  --color-background: #eef3f9;
+  --color-overlay: rgba(17, 24, 39, 0.55);
+
+  --color-text-primary: #12202e;
+  --color-text-secondary: #4a566a;
+  --color-text-tertiary: #66758d;
+  --color-text-inverse: #ffffff;
+
+  --color-success-50: #eefaf0;
+  --color-success-500: #1f8d4f;
+  --color-success-700: #156639;
+  --color-warning-50: #fff7e8;
+  --color-warning-500: #ca8a04;
+  --color-warning-700: #8a5a00;
+  --color-danger-50: #fff0f0;
+  --color-danger-500: #d33f49;
+  --color-danger-700: #9f2330;
+  --color-info-50: #eef7ff;
+  --color-info-500: #2b78d0;
+  --color-info-700: #1b4f8b;
+
+  --font-family-sans: Inter, 'Segoe UI', Arial, sans-serif;
+  --font-family-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --line-height-tight: 1.2;
+  --line-height-base: 1.5;
+  --line-height-relaxed: 1.7;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --space-0: 0;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.625rem;
+  --radius-lg: 1rem;
+  --radius-pill: 999px;
+
+  --shadow-xs: 0 1px 2px rgba(15, 23, 42, 0.08);
+  --shadow-sm: 0 4px 10px rgba(15, 23, 42, 0.08);
+  --shadow-md: 0 12px 28px rgba(15, 23, 42, 0.12);
+  --shadow-lg: 0 22px 48px rgba(15, 23, 42, 0.16);
+
+  --size-control-sm: 2rem;
+  --size-control-md: 2.5rem;
+  --size-control-lg: 3rem;
+  --size-icon-sm: 1rem;
+  --size-icon-md: 1.25rem;
+  --size-icon-lg: 1.5rem;
+
+  --z-index-base: 0;
+  --z-index-sticky: 10;
+  --z-index-dropdown: 100;
+  --z-index-overlay: 1000;
+  --z-index-modal: 1010;
+  --z-index-toast: 1100;
+
+  --transition-fast: 120ms ease;
+  --transition-base: 180ms ease;
+  --transition-slow: 240ms ease;
+
+  --breakpoint-sm: 36rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+}
