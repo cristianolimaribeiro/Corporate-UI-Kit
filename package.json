@@ -23,6 +23,7 @@
     }
   },
   "sideEffects": [
+    "src/index.ts",
     "**/*.css"
   ],
   "dependencies": {
