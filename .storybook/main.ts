@@ -18,6 +18,7 @@ const config: StorybookConfig = {
       ...config.resolve.alias,
       '@': path.resolve(rootDir, '../src'),
     };
+    config.base = './';
     return config;
   },
 };
