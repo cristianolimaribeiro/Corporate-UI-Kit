@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -p tsconfig.node.json --noEmit && tsc -p tsconfig.json --noEmit && npm run build:lib && npm run build:demo",
     "build:lib": "vite build --mode library",
-    "build:demo": "vite build",
+    "build:demo": "vite build && node scripts/inline-demo-css.mjs",
     "preview": "vite preview --outDir dist/demo --host 127.0.0.1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
