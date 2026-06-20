@@ -10,6 +10,7 @@ export default defineConfig(({ mode }) => {
   const isLibrary = mode === 'library';
 
   return {
+    base: isLibrary ? '/' : './',
     plugins: [
       react(),
       isLibrary
